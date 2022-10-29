@@ -12,18 +12,10 @@ main {
     position: absolute;
     width: 300px;
     height: 100%;
+    padding: 20px 0;
     background-color: #1b364d;
     box-shadow: rgba(0, 0, 0, 0.5);
     border-top: 1px solid white;
-}
-
-.brand-logo-sb {
-    margin: 20px auto;
-    width: 260px;
-}
-
-.brand-logo-sb img {
-    width: 100%;
 }
 
 .sidebar-nav-list {
@@ -96,4 +88,8 @@ main {
 
 form .row {
     margin: 1em 0;
+}
+
+input[type="radio"], input[type="file"]:hover, .form-check-label:hover, .form-control:hover {
+    cursor: pointer;
 }
